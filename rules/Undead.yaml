@@ -314,7 +314,7 @@ UNDEAD7:
 	Health:
 		HP: 50000
 	-Crushable:
-    Armament:
+	Armament:
 		Weapon: SkeletonRock
 		FireDelay: 30
 		LocalOffset: 0,0,512
@@ -325,6 +325,10 @@ UNDEAD7:
 		Role: Utility
 	Armor:
 		Type: HeavyCavalry
+	Selectable:
+		Bounds: 14,24,0,-12
+	SelectionDecorations:
+		VisualBounds: 14,24,0,-12
 
 		
 GSTONE1:
@@ -443,6 +447,8 @@ GSTONEXL2:
 		
 COFFIN1:
 	Inherits: ^Gravestone
+	Tooltip:
+		Name: Coffin
 	ShakeOnCreate:
 		Intensity: 30
 	CritterSpawner:
@@ -457,6 +463,8 @@ COFFIN1:
 		
 COFFIN2:
 	Inherits: ^Gravestone
+	Tooltip:
+		Name: Coffin
 	ShakeOnCreate:
 		Intensity: 30
 	CritterSpawner:
@@ -471,6 +479,8 @@ COFFIN2:
 		
 COFFIN3:
 	Inherits: ^Gravestone
+	Tooltip:
+		Name: Coffin
 	ShakeOnCreate:
 		Intensity: 30
 	CritterSpawner:
